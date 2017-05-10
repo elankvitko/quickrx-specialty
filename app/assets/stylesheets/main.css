@@ -231,6 +231,7 @@ body {
 .service-title {}
 
 .service-title h2 {
+    text-align: center;
     font-size: 30px;
 }
 
@@ -433,7 +434,13 @@ opacity: 1;
 
 /* Footer top */
 
-.f-top-img {}
+.f-top-img {
+      border-bottom: 1px solid #8AC53F;
+}
+
+.footer-top {
+      margin-top: 60px;
+}
 
 .f-top-img img {
     max-width: 100%;
