@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QrxUmbrella</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='dns-prefetch' href='https://maps.google.com' />
+    <link rel='dns-prefetch' href='https://fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='https://s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="ReHealth &raquo; Feed" href="feed/index.rss" />
+    <link rel="alternate" type="application/rss+xml" title="ReHealth &raquo; Comments Feed" href="comments/feed/index.rss" />
+
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'qrp_site_styles.css', media: 'all' %>
+    <%= stylesheet_link_tag    'qrp-header-additional-style.min.css', media: 'all' %>
+    <%= stylesheet_link_tag    'espark-main-style.min.css', media: 'all' %>
+    <%= stylesheet_link_tag    'bootstrap.min.css', media: 'all' %>
+    <%= stylesheet_link_tag    'main.css', media: 'all' %>
+    <%= stylesheet_link_tag    'owl.carousel.css', media: 'all' %>
+    <%= stylesheet_link_tag    'owl.theme.css', media: 'all' %>
+    <%= stylesheet_link_tag    'owl.transitions.css', media: 'all' %>
+    <%= stylesheet_link_tag    'general', media: 'all' %>
+    <%= stylesheet_link_tag    'responsive.css', media: 'all' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'espark-main-script.min.js' %>
+    <%= javascript_include_tag 'main.min.js' %>
+    <%= javascript_include_tag 'bootstrap.min.js' %>
+    <%= javascript_include_tag 'owl.carousel.min.js' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
