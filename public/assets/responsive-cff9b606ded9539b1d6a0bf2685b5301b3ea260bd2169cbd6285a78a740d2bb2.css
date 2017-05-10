@@ -1,0 +1,183 @@
+@media (min-width: 961px) and (max-width: 1295px) {
+    .navbar-right {
+        margin-right: -60px;
+        padding: 15px 0;
+    }
+    .recommend-texts h3 {
+        font-size: 15px;
+        width: 100%;
+    }
+    .about-img {
+        max-width: 356px;
+    }
+    .recommend-texts p {
+        font-size: 15px;
+    }
+    #slide-item {}
+	
+	.subscription-area {
+		margin-top: -10px;
+	}
+	
+	.couple {
+		margin-top: 42px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .navbar-right {
+        margin-right: -60px;
+        padding: 15px 0;
+    }
+    .caption p {
+        color: #fff;
+        font-size: 13px;
+        text-align: right;
+        padding-right: 40px;
+    }
+    .about-img {
+        max-width: 100%;
+    }
+    .service-img img {
+        max-width: 100%;
+        position: relative;
+        height: 250px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #8AC53F;
+    }
+	.subscription-area {
+		margin-top: -13px;
+	}
+	
+	
+}
+
+@media (max-width: 767px) {
+    .service-img img {
+        width: 100%;
+        height: auto;
+    }
+    .service-img p {
+        font-size: 25px;
+    }
+    .recommend-texts h2 {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .recommend-texts h3 {
+        background: #8AC53F;
+        padding: 16px;
+        color: #fff;
+        font-size: 23px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .caption p {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .about-img {
+        max-width: 100%;
+    }
+    .service-img p {
+        left: 40%;
+    }
+    .caption p {
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        padding: 11px 43px;
+        padding-right: 61px;
+    }
+    .couple {
+        max-width: 250px;
+        margin-left: 47px;
+    }
+    .border-hr {
+        width: 100%;
+    }
+    .read-more {
+        margin-bottom: 30px;
+    }
+    .sub-form {
+        margin-left: 0;
+    }
+    .welcome h2 {
+        font-size: 50px;
+    }
+    .welcome h2 span {
+        font-size: 40px;
+    }
+    .welcome {
+        margin-left: 40px;
+    }
+    .navbar-right {
+        margin-right: 0;
+        padding: 15px 0;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-toggle {
+        background-color: #8AC53F;
+    }
+    .header-top-menu ul.nav {
+        margin-right: 0;
+    }
+	.subscription-area {
+		margin-top: -13px;
+	}
+	
+}
+
+@media (max-width: 480px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .border-hr {
+        width: 100%;
+    }
+    .read-more {
+        margin-bottom: 30px;
+    }
+    .sub-form {
+        margin-left: 0;
+    }
+    .welcome {
+        margin-left: 40px;
+    }
+    .item {
+        height: 440px;
+    }
+    .navbar-right {
+        margin-right: 0;
+        padding: 15px 0;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-toggle {
+        background-color: #8AC53F;
+    }
+    .header-top-menu ul.nav {
+        margin-right: 0;
+    }
+	.subscription-area {
+		margin-top: -13px;
+	}
+}
+/*===================================== End Of Responsive CSS ========================= */
