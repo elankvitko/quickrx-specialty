@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>QrxUmbrella</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel='dns-prefetch' href='https://maps.google.com' />
-    <link rel='dns-prefetch' href='https://fonts.googleapis.com' />
-    <link rel='dns-prefetch' href='https://s.w.org' />
-    <link rel="alternate" type="application/rss+xml" title="ReHealth &raquo; Feed" href="feed/index.rss" />
-    <link rel="alternate" type="application/rss+xml" title="ReHealth &raquo; Comments Feed" href="comments/feed/index.rss" />
+    <meta charset="utf-8">
+    <title>Quick RX</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="pictures/favicon.ico" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'main.css', media: 'all' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= stylesheet_link_tag 'bootstrap.min.css', media: 'all' %>
+    <%= stylesheet_link_tag 'font-awesome.css', media: 'all' %>
+    <%= stylesheet_link_tag 'quickrx.css', media: 'all' %>
+
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'bootstrap.min.js' %>
   </head>
 
   <body>

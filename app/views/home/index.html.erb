@@ -1,102 +1,332 @@
+<div class="container-fluid hidden-xs hidden-sm">
+		<ul class="top_nav">
+				<li><a href="#">Provider Login</a></li>
+				<li><a href="#">Enrollment Forms</a></li>
+				<li><a href="#">Contact Us</a></li>
+		</ul>
+</div>
+<nav class="navbar navbar-default ">
+		<div class="container-fluid">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+						<div class="navbar-brand">
+								<a href="index.html">
+									<%= image_tag "logo_color.png", class: "logo_img" %>
+								</a>
+						</div>
+				</div>
+				<div class="collapse navbar-collapse" id="my-navbar-collapse">
+						<ul id="nav" class="nav navbar-nav navbar-right">
+								<li class="active"><a href="#">ABOUT US</a></li>
+								<li><a href="#">OUR SPECIALTIES</a></li>
+								<li><a href="#">SERVCIES</a></li>
+								<li><a href="#">LOCATIONS</a></li>
+								<li><a href="#">CONTACT US</a></li>
+								<li><a href="#">TUB 6</a></li>
+						</ul>
+				</div>
+		</div>
+</nav>
+<div class="header">
+		<div class="container-fluid" id="banner">
+				<div class="row">
+						<div class="col-md-12">
+								<%= image_tag "q.png", class: "top_Q" %>
+								<div class="col-md-offset-3 col-sm-offset-3 heading_block">
+										<h1>SPEND TIME WITH YOUR LOVED ONES</h1>
+										<h1>INSTEAD OF RUNNING AFTER PRESCRIPTIONS</h1>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+<div class="section">
+		<div class="container-fluid small-gaps" id="icon-banner">
+				<div class="row text-center benefits">
+						<h1>OUR BENEFITS</h1>
+						<div class="col-md-offset-2 col-sm-3 col-xs-6 col-md-2 text-center">
+								<a href="" class="icon-link">
+								<div class="custom-icons first-child">
+										<%= image_tag "specialty_icon.png", class: "icon first-icon" %>
+								</div>
+								<h2>SPECIALTIES</h2>
+								</a>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
+								<a href="" class="icon-link">
+								<div class="custom-icons">
+										<%= image_tag "priorA_icon .png", class: "icon" %>
+								</div>
+								<h2>PRIOR AUTHORIZATION</h2>
+								</a>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
+								<a href="" class="icon-link">
+								<div class="custom-icons">
+										<%= image_tag "finance_icon.png", class: "icon" %>
+								</div>
+								<h2>FINANCIAL ASSISTANCE</h2>
+								</a>
+						</div>
+						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
+								<a href="" class="icon-link">
+								<div class="custom-icons">
+										<%= image_tag "edu_icon.png", class: "icon" %>
+								</div>
+								<h2>EDUCATION</h2>
+								</a>
+						</div>
+				</div>
+		</div>
+</div>
+<div class="section">
+		<div class="container-fluid ">
+				<div class="row">
+						<div class="col-lg-6 col-md-8">
+								<%= image_tag "about.png", width: "100%" %>
+						</div>
+						<div class="col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 about_text small-gaps col-xs-10 col-md-4">
+								<h1 class="about_h1">ABOUT US</h1>
+								<p>
+										QuickRX is New York City’s most trusted pharmacy. QuickRX is full of friendly, multilingual staff members who greet you with
+										a smile and treat you like family. We are open 7 days a week!</p>
+								<p class="pdt-10"><b>At QuickRX:</b></p>
+								<p>Most insurance accepted</p>
+								<p>Competitive Pricing</p>
+								<p>Free pickup or local delivery</p>
+								<p>Free consultations with pharmacists both by phone and in-person</p>
+								<p>Medical Supplies</p>
+								<p>At QuickRX our mission is to improve the health and wellness of our communities. Our ability to communicate
+										with patients about their compliance is unmatched. Our personalized Rx Reports allow us monitor patient
+										upkeep of their medications in a unique and highly effective manner. Our staff training and self-auditing
+										procedures are thorough and unrivaled by our competitors.</p>
 
-<body>
-	<div id="background">
-		<div id="Layer1copy"><%= image_tag "Layer1copy.png" %></div>
-		<div id="Linedevider"><%= image_tag "Linedevider.png" %></div>
-		<div id="Linedevidercopy"><%= image_tag "Linedevidercopy.png" %></div>
-		<div id="Linedevidercopy2"><%= image_tag "Linedevidercopy2.png" %></div>
-		<div id="Linedevidercopy3"><%= image_tag "Linedevidercopy3.png" %></div>
-		<div id="Linedevidercopy4"><%= image_tag "Linedevidercopy4.png" %></div>
-		<div id="GrayBG"><%= image_tag "GrayBG.png" %></div>
-		<div id="Q"><%= image_tag "Q.png" %></div>
-		<div id="bottomstrip"><%= image_tag "bottomstrip.png" %></div>
-		<div id="Socialmediaicons"><%= image_tag "Socialmediaicons.png" %></div>
-		<div id="Logo"><%= image_tag "Logo.png" %></div>
-		<div id="buttoncopy"><%= image_tag "buttoncopy.png" %></div>
-		<div id="SENDcopy"><%= image_tag "SENDcopy.png" %></div>
-		<div id="QUICKRX2017COPYRIGHT"><%= image_tag "QUICKRX2017COPYRIGHT.png" %></div>
-		<div id="CONTACTUS90Broadstre"><%= image_tag "CONTACTUS90Broadstre.png" %></div>
-		<div id="ABOUTUSOURSPECIALTIE"><%= image_tag "ABOUTUSOURSPECIALTIE.png" %></div>
-		<div id="RegisterforourNewsle"><%= image_tag "RegisterforourNewsle.png" %></div>
-		<div id="Layer2"><%= image_tag "Layer2.png" %></div>
-		<div id="Email"><%= image_tag "Email.png" %></div>
-		<div id="Logosbanner"><%= image_tag "Logosbanner.png" %></div>
-		<div id="Tweetericon"><%= image_tag "Tweetericon.png" %></div>
-		<div id="FBicon"><%= image_tag "FBicon.png" %></div>
-		<div id="UtubeIcon"><%= image_tag "UtubeIcon.png" %></div>
-		<div id="inIcon"><%= image_tag "inIcon.png" %></div>
-		<div id="Gicon"><%= image_tag "Gicon.png" %></div>
-		<div id="contactpic"><%= image_tag "contactpic.png" %></div>
-		<div id="Fieldframe"><%= image_tag "Fieldframe.png" %></div>
-		<div id="Fieldframecopy"><%= image_tag "Fieldframecopy.png" %></div>
-		<div id="Fieldframecopy2"><%= image_tag "Fieldframecopy2.png" %></div>
-		<div id="Fieldframecopy3"><%= image_tag "Fieldframecopy3.png" %></div>
-		<div id="Fieldframecopy4"><%= image_tag "Fieldframecopy4.png" %></div>
-		<div id="Fieldframecopy5"><%= image_tag "Fieldframecopy5.png" %></div>
-		<div id="Fieldframecopy6"><%= image_tag "Fieldframecopy6.png" %></div>
-		<div id="Fieldframecopy7"><%= image_tag "Fieldframecopy7.png" %></div>
-		<div id="Messageframe"><%= image_tag "Messageframe.png" %></div>
-		<div id="CONTACTUS"><%= image_tag "CONTACTUS.png" %></div>
-		<div id="Formoreinformationpl"><%= image_tag "Formoreinformationpl.png" %></div>
-		<div id="FirstName"><%= image_tag "FirstName.png" %></div>
-		<div id="Surame"><%= image_tag "Surame.png" %></div>
-		<div id="Address"><%= image_tag "Address.png" %></div>
-		<div id="City"><%= image_tag "City.png" %></div>
-		<div id="State"><%= image_tag "State.png" %></div>
-		<div id="ZipCode"><%= image_tag "ZipCode.png" %></div>
-		<div id="Phone"><%= image_tag "Phone.png" %></div>
-		<div id="Email_0"><%= image_tag "Email_0.png" %></div>
-		<div id="Message"><%= image_tag "Message.png" %></div>
-		<div id="button"><%= image_tag "button.png" %></div>
-		<div id="SEND"><<%= image_tag "SEND.png" %></div>
-		<div id="QuickRXHeadquater90B"><%= image_tag "QuickRXHeadquater90B.png" %></div>
-		<div id="BlueBG"><%= image_tag "BlueBG.png" %></div>
-		<div id="Servicespic"><%= image_tag "Servicespic.png" %></div>
-		<div id="Thepharmacyindustryi"><%= image_tag "Thepharmacyindustryi.png" %></div>
-		<div id="SERVICES"><%= image_tag "SERVICES.png" %></div>
-		<div id="AboutQ"><%= image_tag "AboutQ.png" %></div>
-		<div id="ABOUTUS"><%= image_tag "ABOUTUS.png" %></div>
-		<div id="QuickRXisNewYorkCity"><%= image_tag "QuickRXisNewYorkCity.png" %></div>
-		<div id="BlueBG_0"><%= image_tag "BlueBG_0.png" %></div>
-		<div id="redcircle"><%= image_tag "redcircle.png" %></div>
-		<div id="redcirclecopy3"><%= image_tag "redcirclecopy3.png" %></div>
-		<div id="redcirclecopy"><%= image_tag "redcirclecopy.png" %></div>
-		<div id="redcirclecopy2"><%= image_tag "redcirclecopy2.png" %></div>
-		<div id="Whirecircleover"><%= image_tag "Whirecircleover.png" %></div>
-		<div id="Whcirclecopy2over"><%= image_tag "Whcirclecopy2over.png" %></div>
-		<div id="whitecirclecopy3over"><%= image_tag "whitecirclecopy3over.png" %></div>
-		<div id="Whitecirclecopy4over"><%= image_tag "Whitecirclecopy4over.png" %></div>
-		<div id="Specialtyicon"><%= image_tag "Specialtyicon.png" %></div>
-		<div id="priorAicon"><%= image_tag "priorAicon.png" %></div>
-		<div id="financeicon"><<%= image_tag "financeicon.png" %></div>
-		<div id="eduicon"><%= image_tag "eduicon.png" %></div>
-		<div id="SPECIALTIES"><%= image_tag "SPECIALTIES.png" %></div>
-		<div id="PRIORAUTHORIZATION"><%= image_tag "PRIORAUTHORIZATION.png" %></div>
-		<div id="FINANCIALASSISTANCE"><%= image_tag "FINANCIALASSISTANCE.png" %></div>
-		<div id="EDUCATION"><%= image_tag "EDUCATION.png" %></div>
-		<div id="SPECIALTIESover"><%= image_tag "SPECIALTIESover.png" %></div>
-		<div id="Specialtyiconover"><%= image_tag "Specialtyiconover.png" %></div>
-		<div id="priorAiconover"><%= image_tag "priorAiconover.png" %></div>
-		<div id="financeiconover"><%= image_tag "financeiconover.png" %></div>
-		<div id="eduiconover"><%= image_tag "eduiconover.png" %></div>
-		<div id="OURBENFITS"><%= image_tag "OURBENFITS.png" %></div>
-		<div id="MainBanner1"><%= image_tag "MainBanner1.png" %></div>
-		<div id="MainBanner2"><%= image_tag "MainBanner2.png" %></div>
-		<div id="mainbanner3"><%= image_tag "mainbanner3.png" %></div>
-		<div id="Q_0"><%= image_tag "Q_0.png" %></div>
-		<div id="trasparenttextBG"><%= image_tag "trasparenttextBG.png" %></div>
-		<div id="SPENDTIMEWITHYOURLOV"><%= image_tag "SPENDTIMEWITHYOURLOV.png" %></div>
-		<div id="INSTEADOFRUNNINGAFTE"><%= image_tag "INSTEADOFRUNNINGAFTE.png" %></div>
-		<div id="TopwhiteBG"><%= image_tag "TopwhiteBG.png" %></div>
-		<div id="bluestrip"><%= image_tag "bluestrip.png" %></div>
-		<div id="Logo_0"><%= image_tag "Logo_0.png" %></div>
-		<div id="ABOUTUSOURSPECIALTI"><%= image_tag "ABOUTUSOURSPECIALTI.png" %></div>
-		<div id="redstripover"><%= image_tag "redstripover.png" %></div>
-		<div id="redtoptub"><%= image_tag "redtoptub.png" %></div>
-		<div id="redtoptubcopy"><%= image_tag "redtoptubcopy.png" %></div>
-		<div id="redtoptubcopy2"><%= image_tag "redtoptubcopy2.png" %></div>
-		<div id="ProviderLogin"><%= image_tag "ProviderLogin.png" %></div>
-		<div id="EnrollmentForms"><%= image_tag "EnrollmentForms.png" %></div>
-		<div id="ContactUs"><%= image_tag "ContactUs.png" %></div>
-	</div>
-</body>
+								</p>
+						</div>
+				</div>
+		</div>
+</div>
+<div class="section">
+		<div class="container-fluid" id="services">
+				<div class="row">
+						<div class="col-md-offset-0 col-lg-offset-2 col-sm-offset-1 col-xs-offset-1 services_text small-gaps col-xs-10 col-md-4">
+								<h1 class="pdt-10">SERVICES</h1>
+								<p>The pharmacy industry is continuously evolving, but at QuickRX we have made it our mission to be ahead
+										of the curve, constantly developing and providing high-quality formulations and extraordinary customer
+										service to both patients and healthcare practitioners.<br/> We do more than simply fill your prescriptions;
+										we offer a wide variety of concentrated care, treatments and medications to help you manage your
+										condition. We offer specialty medications to help treat chronic, rare and/or complex conditions.</p>
+								<p>QuickRX pharmacies go above and beyond to convenience, professionalism and pharmaceutical resources to
+										give you the best individualized personal care possible. You can be sure that your information and
+										privacy is fully respected at all times.</p>
+								<p> We take your time seriously, which is why we do everything we can to make your pharmacy experience convenient.
+										We help to remind you of refill dates to make sure you stay in line with your treatment plans, as
+										well as organize your medications for you so that they are ready at the same time.</p>
+								<p> Have questions about your insurance or benefits? Need help finding financial assistance? We can help!
+										We will work with you and your insurance to help answer any questions you may have.</p>
+								<p class="pdt-20"><b>We also offer...</b></p>
+								<p>Fast, free same day delivery</p>
+								<p>Lowest possible prices</p>
+								<p>Patient adherence programs</p>
+								<p>Hypertension testing</p>
+
+								</p>
+						</div>
+						<div class="ol-xs-12 col-md-8 col-lg-6">
+								<%= image_tag "services.png", width: "100%" %>
+						</div>
+
+				</div>
+		</div>
+</div>
+<div class="section">
+		<div class="container-fluid " id="contact">
+				<div class="row">
+						<div class="col-md-6 ">
+								<div id="map"></div>
+								<div id="map_overlay">
+								</div>
+						</div>
+						<div class="col-md-6 small-gaps" id="form-box">
+								<h1 class="contact_h1 pdt-5">CONTACT US</h1>
+
+								<div class="col-md-6">
+										<p class="form_subhead">For more information please fill out your details and we will contact you shortly</p>
+										<form id="contact_form">
+												<div class="form-group">
+														<label for="firstname" class="sr-only">First Name</label>
+														<input type="text" class="form-control" id="firstname" placeholder="First Name">
+												</div>
+												<div class="form-group">
+														<label for="surname" class="sr-only">First Name</label>
+														<input type="text" class="form-control" id="surname" placeholder="Surname">
+												</div>
+												<div class="form-group">
+														<label for="addresss" class="sr-only">Address</label>
+														<input type="text" class="form-control" id="address" placeholder="Address">
+												</div>
+												<div class="form-group">
+														<label for="city" class="sr-only">City</label>
+														<input type="text" class="form-control" id="city" placeholder="City">
+												</div>
+												<div class="form-group">
+														<label for="state" class="sr-only">State</label>
+														<input type="text" class="form-control" id="state" placeholder="State">
+												</div>
+												<div class="form-group">
+														<label for="zipcode" class="sr-only">Zip Code</label>
+														<input type="text" class="form-control" id="zipcode" placeholder="Zip COde">
+												</div>
+												<div class="form-group">
+														<label for="phone" class="sr-only">Phone</label>
+														<input type="text" class="form-control" id="phone" placeholder="Phone">
+												</div>
+												<div class="form-group">
+														<label for="email" class="sr-only">Email</label>
+														<input type="text" class="form-control" id="email" placeholder="Email">
+												</div>
+												<div class="form-group">
+														<textarea id="form-text" class="form-control" rows="4" placeholder="Message"></textarea>
+												</div>
+												<button type="submit" class="btn btn-default">SEND</button>
+										</form>
+								</div>
+								<div class="col-md-6">
+										<h5 class="address_heading">QuickRX Headquater</h5>
+										<p>90 Broad street, Suite 402</p>
+										<p>New York, NY 10004</p>
+										<p>Telephone: 212-249-8202</p>
+										<p>Email: support@qrpgroup.com</p>
+										<div class="col-md-12 form-social">
+												<a href="#" class="social-icon-inverse"><i class="fa fa-twitter "></i></a>
+												<a href="#" class="social-icon-inverse"><i class="fa fa-facebook"></i></a>
+												<a href="#" class="social-icon-inverse"><i class="fa fa-youtube-play"></i></a>
+												<a href="#" class="social-icon-inverse"><i class="fa fa-linkedin"></i></a>
+												<a href="#" class="social-icon-inverse"><i class="fa fa-google-plus"></i></a>
+										</div>
+
+								</div>
+						</div>
+				</div>
+		</div>
+
+</div>
+<div class="section">
+		<div class="container-fluid partners">
+				<div class="row">
+						<div class="col-md-12 text-center">
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo4.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo3.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo3.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo2.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo4.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo5.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo3.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo2.png" %>
+								</div>
+								<div class="col-md-1 logo-item">
+										<%= image_tag "logo1.png" %>
+								</div>
+						</div>
+				</div>
+		</div>
+</div>
+
+<div class="section-footer">
+		<div class="container-fluid" id="footer">
+				<div class="row">
+						<div class="col-lg-6 col-lg-offset-2 col-md-8 col-md-offset-1 col-sm-11">
+								<div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-sm-5">
+
+										<%= image_tag "logo.png", height: "50px" %>
+										<div class="contact_info">
+												<p>CONTACT US:</p>
+												<p>90 Broad street, Suite 402</p>
+												<p>New York, NY 10004</p>
+												<p>Telephone: 212-249-8202</p>
+												<p>Email: support@qrpgroup.com</p>
+										</div>
+										<a href="#" class="social-icon-straight"><i class="fa fa-twitter "></i></a>
+										<a href="#" class="social-icon-straight"><i class="fa fa-facebook"></i></a>
+										<a href="#" class="social-icon-straight"><i class="fa fa-youtube-play"></i></a>
+										<a href="#" class="social-icon-straight"><i class="fa fa-linkedin"></i></a>
+										<a href="#" class="social-icon-straight"><i class="fa fa-google-plus"></i></a>
+								</div>
+
+								<div class="col-sm-6">
+										<ul class="pdt-10">
+												<li><a href="#">ABOUT US</a></li>
+												<li><a href="#">OUR SPECIALTIES</a></li>
+												<li><a href="#">SERVICES</a></li>
+												<li><a href="#">LOCATION</a></li>
+												<li><a href="#">CONTACT US</a></li>
+
+										</ul>
+										<div class="newsletter">
+												<p><b>Register For Our Newsletter</b></p>
+												<p>Stay up to date with latest news from our company</p>
+												<p>We promise we won’t spam you.</p>
+												<form class="form-inline">
+
+														<div class="form-group" id="subscription">
+																<label for="newsletter" class="sr-only">Email</label>
+																<input type="email" class="form-control" id="newsletter" placeholder="Email">
+														</div>
+														<button type="submit" class="btn btn-default btnsubmit">SEND</button>
+												</form>
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+		<div class="container-fluid" id="copyright">
+				<div class="row">
+						<div class="col-md-10 col-md-offset-2">
+								<p class="col-md-offset-1">QUICKRX 2017.COPYRIGHT. All Rights Reserved</p>
+						</div>
+				</div>
+		</div>
+</div>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv3_Wn8zF-3nDgK2ntMPp40GKrqia1Azw&callback=initMap">
+</script>
+
+<script>
+	function initMap() {
+		var e = { lat: 40.8453968, lng: -73.84465449999999 },
+				i = new google.maps.Map(document.getElementById("map"),
+				{ zoom: 15, center: e }),
+				n = '<div id="content"><div id="siteNotice"></div><div id="bodyContent"><p>QuickRX Specialty Pharmacy</p></div></div>',
+				o = new google.maps.InfoWindow({ content: n }),
+				t = new google.maps.Marker({ position: e,
+																		 map: i,
+																		 title: "1642 Eastchester Rd., Bronx, NY 10461" });
+																		 t.addListener("click", function () { o.open(i, t) })
+	}
+
+	$('#map_overlay').click(function(event){
+		event.preventDefault();
+		$('#map').trigger(event);
+	});
+</script>
