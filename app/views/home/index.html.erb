@@ -52,7 +52,7 @@
 						<div class="col-md-offset-2 col-sm-3 col-xs-6 col-md-2 text-center">
 								<a href="" class="icon-link">
 								<div class="custom-icons first-child">
-										<%= image_tag "specialty_icon.png", class: "icon first-icon" %>
+										<img src="/images/specialty_icon.png" class="icon">
 								</div>
 								<h2>SPECIALTIES</h2>
 								</a>
@@ -60,7 +60,7 @@
 						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
 								<a href="" class="icon-link">
 								<div class="custom-icons">
-										<%= image_tag "priorA_icon .png", class: "icon" %>
+										<img src="/images/priorA_icon.png" class="icon">
 								</div>
 								<h2>PRIOR AUTHORIZATION</h2>
 								</a>
@@ -68,7 +68,7 @@
 						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
 								<a href="" class="icon-link">
 								<div class="custom-icons">
-										<%= image_tag "finance_icon.png", class: "icon" %>
+										<img src="/images/finance_icon.png" class="icon">
 								</div>
 								<h2>FINANCIAL ASSISTANCE</h2>
 								</a>
@@ -76,7 +76,7 @@
 						<div class="col-md-2 col-sm-3 col-xs-6 text-center">
 								<a href="" class="icon-link">
 								<div class="custom-icons">
-										<%= image_tag "edu_icon.png", class: "icon" %>
+										<img src="/images/edu_icon.png" class="icon">
 								</div>
 								<h2>EDUCATION</h2>
 								</a>
@@ -328,5 +328,26 @@
 	$('#map_overlay').click(function(event){
 		event.preventDefault();
 		$('#map').trigger(event);
+	});
+</script>
+
+<script type="text/javascript">
+	$(function() {
+		$(".custom-icons")
+			.mouseover(function() {
+				var changeThis = $(this).children()[ 0 ]
+				var nameWithoutPng = $(changeThis).attr( "src" ).split( "/" )[ 2 ]
+				var name = nameWithoutPng.split( ".png" )[ 0 ];
+				var src = "/images/" + name + "-red.png"
+		 		$(changeThis).attr("src", src);
+			})
+
+			.mouseout(function() {
+				var changeThis = $(this).children()[ 0 ]
+				var nameWithoutPng = $(changeThis).attr( "src" ).split( "/" )[ 2 ]
+				var name = nameWithoutPng.split( "-red.png" )[ 0 ];
+				var src = "/images/" + name + ".png"
+		 		$(changeThis).attr("src", src);
+			});
 	});
 </script>
