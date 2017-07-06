@@ -316,7 +316,7 @@
 	function initMap() {
 		var e = { lat: 40.8453968, lng: -73.84465449999999 },
 				i = new google.maps.Map(document.getElementById("map"),
-				{ zoom: 15, center: e }),
+				{ zoom: 15, center: e, scrollwheel: false }),
 				n = '<div id="content"><div id="siteNotice"></div><div id="bodyContent"><p>QuickRX Specialty Pharmacy</p></div></div>',
 				o = new google.maps.InfoWindow({ content: n }),
 				t = new google.maps.Marker({ position: e,
