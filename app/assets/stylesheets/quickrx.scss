@@ -110,27 +110,34 @@ a[class*=social-icon-] {
 }
 
 .top_nav {
-    margin: 6px 0 0;
-    padding: 0;
+    background: #ed1c4f;
+    // margin: 6px 0 0;
+    // padding: 0;
+    padding: 5px 20px 5px;
     float: right
 }
 
 .top_nav li>a {
     background: #ed1c4f;
     color: #fff;
-    padding: 4px 15px 5px;
+    // padding: 4px 15px 5px;
     font-size: 17px
 }
 
 .top_nav li>a:hover {
-    background: #bd103c;
-    color: #fff;
+    // background: #bd103c;
+    color: #112550;
     transition: all .3s ease-in;
     text-decoration: none
 }
 
 .top_nav li {
     display: inline-block
+}
+
+.break-top-opts {
+  font-size: 17px;
+  color: #fff;
 }
 
 .navbar-default {
